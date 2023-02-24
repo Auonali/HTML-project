@@ -1,4 +1,4 @@
 FROM ubuntu
-WORKDIR /var/lib/jenkins/workspace/webcar
+WORKDIR /var/www/html
 COPY ./ /var/www/html
 EXPOSE 80:80
